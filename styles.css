@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background: #a7eefc;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 50px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+p {
+    font-weight: bold;
+}
+
+.my-photo {
+    border-radius: 20px;
+    border: 10px double orange;
+    box-shadow: 0 0 15px blue;
+    display: block; /* Ensures the image behaves as a block element */
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #ccc;
+    font-size: small;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: solid 3px #007BFF;
+    border-radius: 15px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.5);
+}
+
+.about-text {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.contact {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: solid 3px #007BFF;
+    border-radius: 15px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.5);
+}
+
+.contact-text {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.skills {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: solid 3px #007BFF;
+    border-radius: 15px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.5);
+}
+
+.skills-text {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.resume-download {
+    display: flex;
+    align-items: center;
+}
+
+.resume-download a {
+    margin-left: 5px; /* Adjust the margin as needed */
+}
